@@ -73,7 +73,11 @@
     <title>Eric's Invitations Inc.</title> 
     <script>
     function submitAnswer() {
-        alert("hello");
+        if(document.getElementById("yes1").checked) {
+            alert("yes");
+        } else {
+            alert("no");
+        }
     }
 </script>
 </head>
