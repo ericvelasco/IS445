@@ -76,14 +76,22 @@
     <h1>To (insert Anglo man name here)</h1>
     <div>
         <label for="select">Would you be interested in a bed collab? (Please select)</label>
-        <input type="radio" id="select" name="select" value="yes">Yes
-        <input type="radio" id="select2" name="select" value="no">No
+        <input type="radio"  id="yes1" name="select" value="yes">Yes
+        <input type="radio"  id="no1" name="select" value="no">No
     </div>
     <div>
         <label for="select1">(If selected yes)Would you be interested in a life collab? (Please select)</label>
-        <input type="radio" id="select3" name="select1" value="yes">Yes
-        <input type="radio" id="select4" name="select1" value="no">No
+        <input type="radio"  id="yes2" name="select1" value="yes">Yes
+        <input type="radio"  id="no2" name="select1" value="no">No
     </div>
+    <button type="submit" onClick="answer()">Submit</button>
 </body>
 
 </html>
+<script>
+    function answer() {
+        if (document.getElementById("yes1").checked $$ document.getElementById("yes2").checked) {
+            alert("HOLLA @ ME! (insert contact info here)");
+        }
+    }
+</script>
