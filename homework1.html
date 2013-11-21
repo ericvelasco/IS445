@@ -72,12 +72,8 @@
 <head>
     <title>Eric's Invitations Inc.</title> 
     <script>
-    function answer() {
-        if (document.getElementById("yes1").checked $$ document.getElementById("yes2").checked) {
-            alert("HOLLA @ ME! (insert contact info here)");
-        } else {
-            alert("I DIDNT LIKE YOU ANYWAYS");
-        }
+    function submitAnswer() {
+        alert("hello");
     }
 </script>
 </head>
@@ -93,7 +89,7 @@
         <input type="radio"  id="yes2" name="select1" value="yes">Yes
         <input type="radio"  id="no2" name="select1" value="no">No
     </div>
-    <button onclick="answer()">Submit</button>
+    <button onclick="submitAnswer()">Submit</button>
 </body>
 
 </html>
